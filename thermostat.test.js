@@ -6,4 +6,16 @@ describe('Thermostat', () => {
     expect(thermostat.getTemperature()).toEqual(20);
   });
 
+  it('Increases temperature by 1 degree when .up() is called', () => {
+    const thermostat = new Thermostat;
+    thermostat.up();
+    expect(thermostat.getTemperature()).toEqual(21);
+  });
+
+  it('Decreases temperature by 1 degree when .down() is called', () => {
+    const thermostat = new Thermostat;
+    thermostat.down();
+    expect(thermostat.getTemperature()).toEqual(19);
+  })
+
 });
