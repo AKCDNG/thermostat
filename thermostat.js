@@ -12,7 +12,11 @@ class Thermostat {
   }
 
   down() {
-    this.temperature -= 1
+    if(this.temperature > 10) {
+      this.temperature -= 1;
+    } else {
+      return 'Minimum temperature reached';
+    }
   }
 }
 

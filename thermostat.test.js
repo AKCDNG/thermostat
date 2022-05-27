@@ -18,4 +18,13 @@ describe('Thermostat', () => {
     expect(thermostat.getTemperature()).toEqual(19);
   })
 
+it('Has a minimum temperature of 10 degrees', () => {
+  const thermostat = new Thermostat;
+  for(let i = 0 ; i < 10 ; i++) {
+    thermostat.down();
+  }
+  expect(thermostat.down()).toEqual('Minimum temperature reached');
+  
+});
+
 });
