@@ -56,11 +56,11 @@ If the power saving mode is on, the maximum temperature will be 25 degrees.
 This system was built using the following [TDD](https://en.wikipedia.org/wiki/Test-driven_development#:~:text=Test%2Ddriven%20development%20(TDD),software%20against%20all%20test%20cases.).
 
 ## Installation
-Fork or download this repo.\
-Use `node` to install the correct libaries to use and test this code. You can require the code from terminal, or copy & paste it in Node.\
+Fork or download this repo.
+Use `node` to install the correct libaries to use and test this code. You can require the code from terminal, or copy & paste it in Node.
 
 ## How To Use
-Make a new instance of Scorecard with `const thermostat = new Thermostat;`.\
+Make a new instance of Scorecard with `const thermostat = new Thermostat;`.
 Call `.getTemperature()` to show the current temperature.
 Call `.up()` to incease the thermostat temperature by 1 degree.
 Call `.down()` to decrease the thermostat temperature by 1 degree.
@@ -69,5 +69,5 @@ Call `.setPowerSavingMode(false)` to turn the power saving mode off.
 Call `.reset()` to reset the temperature to 20 degrees.
 
 ## How To Test
-Run `jest` to run through tests.\
+Run `jest` to run through tests.
 
