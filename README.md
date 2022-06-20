@@ -60,7 +60,7 @@ Fork or download this repo.
 Use `node` to install the correct libaries to use and test this code. You can require the code from terminal, or copy & paste it in Node.
 
 ## How To Use
-Make a new instance of Scorecard with `const thermostat = new Thermostat;`.
+Make a new instance of Thermostat with `const thermostat = new Thermostat;`.
 Call `.getTemperature()` to show the current temperature.
 Call `.up()` to incease the thermostat temperature by 1 degree.
 Call `.down()` to decrease the thermostat temperature by 1 degree.
